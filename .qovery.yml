@@ -1,0 +1,11 @@
+---
+application:
+  name: "wsh-api"
+  project: "wsh-test"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-wsh-api"
+  routes:
+  - application_name: "wsh-api"
+    paths:
+    - "/*"
